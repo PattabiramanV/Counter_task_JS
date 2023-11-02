@@ -1,0 +1,52 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: lightyellow;
+}
+
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /* width: 20%; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.threebtn button {
+    width: 100px;
+    height: 40px;
+    margin-right: 27px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+button#decresebtn {
+    background-color: lightcoral;
+}
+
+button#Resetbtn {
+    background-color: lightgrey;
+}
+
+button#Incresebtn {
+    background-color: lightblue;
+}
